@@ -17,21 +17,23 @@
 <body >
     <title>New Year</title>
   <header>
-    <div class="bg-[#E01931] hidden lg:flex justify-around py-2 text-white text-xs">
+    <div class="bg-[#E01931] ">
+     <div class="flex flex-wrap  gap-8 mx-4 md:mx-14 lg:mx-20  py-2 text-white text-xs justify-center">
       <p>Sign up and save 15%</p>
       <p>Free UK / EU / USA delivery</p>
       <p>Free Consultation</p>
       <p>24/7 Services</p>
       <p>90 Days Money Back Guarantee</p>
+     </div>
     </div>
     <div class="navbar  max-w-screen-xl  mx-4 md:mx-14 lg:mx-20">
         <div class="navbar-start">
-          <img class="h-16" src="./resources/2024-realistic-glossy-number-golden-260nw-2343190207-removebg-preview.png" alt="">
+          <img class="h-16 hidden lg:block" src="./resources/2024-realistic-glossy-number-golden-260nw-2343190207-removebg-preview.png" alt="">
         </div>
         <div class="navbar-center  flex-col lg:flex-row  gap-1 lg:gap-5 ">
-         <img class="w-20" src="./resources//bird_2-removebg-preview.png" alt="">
+         <img class="w-20 hidden lg:block" src="./resources//bird_2-removebg-preview.png" alt="">
          <h1 class="text-2xl">Valentina Organic Beauty</h1>
-         <img class="w-20" src="./resources//bird_2-removebg-preview.png" alt="">
+         <img class="w-20 hidden lg:block" src="./resources//bird_2-removebg-preview.png" alt="">
         </div>
         <div class="navbar-end flex-col lg:flex-row   ">
           <button class="btn btn-ghost btn-circle hidden lg:block">
@@ -43,13 +45,15 @@
               <span class="badge badge-xs badge-amber-100 indicator-item">9</span>
             </div>
           </button>
+         <div class="hidden lg:block">
           <i class="fa-solid fa-cart-shopping ml-10"></i>
           <i class="fa-solid fa-user ml-10"></i>
+         </div>
           
         </div>
       </div>
       <div> 
-        <div class="flex flex-col justify-center lg:gap-14 lg:flex-row list-none gap-1 my-3  ">
+        <div class="flex flex-wrap justify-center px-3 lg:gap-14  list-none gap-3 my-3  ">
            <li>Home</li>
            <li>Skin Care</li>
            <li>Body & Hair</li>
@@ -63,7 +67,7 @@
   </header>
   <!-- banner -->
   <div>
-<img class="h-[650px] object-fill  w-full" src="./resources/9895988.jpg" alt="">
+<img class="h-auto lg:h-[650px] object-fill  w-full" src="./resources/9895988.jpg" alt="">
   </div>
   <!-- main body  -->
   <main>
@@ -81,7 +85,7 @@
 
 <!-- 2nd section slider -->
 <section>
-  <div class="carousel w-full mx-auto mb-10 max-w-screen-xl mx-4 md:mx-14 lg:mx-20">
+  <div class="carousel w-full mx-auto mb-10 max-w-screen-xl  md:mx-14 lg:mx-20">
 
     <div id="slide1" class="carousel-item relative w-full h-[#600px]">
       <img src="./resources/s1.jpg" class="w-full" />
@@ -129,15 +133,15 @@
        <button class="bg-[#E01931] rounded-md px-8 py-2 text-white">Start Purchasing</button>
     </div>
     <div>
-      <img class="w-96 mx-auto " src="./resources/Rectangle 8.png " alt="">
+      <img class="w-auto lg:w-96 mx-auto " src="./resources/Rectangle 8.png " alt="">
     </div>
   </div>
 </section>
 <!-- 4th section  -->
 <section>
-  <div class="my-20 max-w-screen-xl mx-4 md:mx-14 lg:mx-20">
+  <div class="my-20 max-w-screen-xl mx-4 md:mx-14 lg:mx-20 ">
     <h1 class="text-3xl text-center text-[#E01931] mb-5">GREAT CHRISTMAS COLLECTIONS</h1>
-    <p class="text-center text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi expedita voluptatibus aspernatur fuga ex aut illum dicta voluptates odio perspiciatis sed exercitationem veniam molestias, earum illo doloribus fugit vero. Aut impedit ullam amet illum sint eveniet facere dolor magni maxime ratione similique ipsam consectetur sunt laudantium sed, fugiat, ab dicta nam voluptatem dolorum blanditiis error sequi voluptatibus. </p>
+    <p class="text-center  text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi expedita voluptatibus aspernatur fuga ex aut illum dicta voluptates odio perspiciatis sed exercitationem veniam molestias, earum illo doloribus fugit vero. Aut impedit ullam amet illum sint eveniet facere dolor magni maxime ratione similique ipsam consectetur sunt laudantium sed, fugiat, ab dicta nam voluptatem dolorum blanditiis error sequi voluptatibus. </p>
     <div class=" hidden  lg:flex gap-5 justify-center items-center">
       <div class="border-solid border-b-4 border-[#E01931] w-36">
       </div>
@@ -151,7 +155,7 @@
 <!--5th section  -->
 <section>
   <div class="my-20 max-w-screen-xl mx-4 md:mx-14 lg:mx-20 ">
-    <div class="hero object-cover  h-[600PX]" style="background-image: url(./resources//bright-close-up-colorful-colors.jpg); background-size:cover; background-repeat: no-repeat;">
+    <div class="hero object-cover h-auto lg:h-[600PX]" style="background-image: url(./resources//bright-close-up-colorful-colors.jpg); background-size:cover; background-repeat: no-repeat;">
       <div class="hero-overlay bg-opacity-25"></div>
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
@@ -161,15 +165,15 @@
         
       </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 my-5">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 my-5">
       <div class="card bg-base-100 rounded-none ">
-        <figure><img class="h-[450px] object-cover" src="./resources//nail polish ideas nail polish inspo nail polish design nail polish designs nails polish ideas nail.jpg" alt="Shoes" /></figure>
+        <figure><img class="h-auto lg:h-[450px] object-cover" src="./resources//nail polish ideas nail polish inspo nail polish design nail polish designs nails polish ideas nail.jpg" alt="Shoes" /></figure>
         </div>
       <div class="card bg-base-100 rounded-none">
-        <figure><img class="h-[450px] object-cover" src="./resources/Freshly Cosmetics UK - Skincare - Violet Hollow.jpg" alt="Shoes" /></figure>
+        <figure><img class="h-auto lg:h-[450px] object-cover" src="./resources/Freshly Cosmetics UK - Skincare - Violet Hollow.jpg" alt="Shoes" /></figure>
         </div>
       <div class="card bg-base-100 rounded-none">
-        <figure><img class="h-[450px] object-cover" src="./resources/Givenchy L'Interdit Eau de Parfum Rouge 50ml.jpg" alt="Shoes" /></figure>
+        <figure><img class="h-auto lg:h-[450px] object-cover" src="./resources/Givenchy L'Interdit Eau de Parfum Rouge 50ml.jpg" alt="Shoes" /></figure>
         </div>
       </div>
     </div>
@@ -228,7 +232,7 @@ space-y-5 py-10">
 <button class="bg-[#FF0000] text-white rounded-md  px-5 py-2">Join Now</button>
 </div>
 <div class="flex flex-col lg:flex-row gap-8 my-10 justify-center items-center ">
-  <div class="px-8 space-y-4">
+  <div class="px-8 space-y-4 text-center">
   <h1 class="text-[#E01931]">NEW BEST OFFER</h1>
   <h1 class="text-2xl text-gray-400">COMING SOON</h1>
   <p class="text-gray-400">All great routines start with a great cleansing step. <br> Whether you want to discover <br> the right cleanser for your skin type, <br> or delve into the depths of <br> double cleansing </p>
@@ -236,10 +240,10 @@ space-y-5 py-10">
   <div>
   <img class="border-8 rounded-full border-red-600 p-5" src="./resources/Ellipse 1.png" alt="">
   </div>
-  <div class="space-y-4  px-8">
-  <h1 class="text-[#E01931] text-3xl"> Happy 2024</h1>
+  <div class="space-y-4 text-center px-8">
+  <h1 class="text-[#E01931] text-3xl "> Happy 2024</h1>
   <p class="text-gray-400">All great routines start with a great cleansing step. <br> Whether you want to discover <br> the right cleanser for your skin type, <br> or delve into the depths of <br> double cleansing </p>
-  <img class="w-20 " src="./resources/117-1174965_red-gift-box-festival-offer-transparent-logo.png" alt="">
+  <img class="w-20 mx-auto" src="./resources/117-1174965_red-gift-box-festival-offer-transparent-logo.png" alt="">
   </div>
   </div>
 </section>
@@ -348,17 +352,21 @@ space-y-5 py-10">
 
 <section>
 <!-- users 1 -->
-<div style="background-image: url(./resources//concrete-wall-with-flowers.jpg);">
-  <div class="flex gap-5 justify-center items-center">
-    <img class="rounded-full w-36 border-2 border-rose-600" src="./resources//young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" alt="">
-    <p class="p-10 text-center w-1/2">All great routines start with a great cleansing step. Whether you want to discover the right cleanser for your skin type, or delve into the depths of double cleansing - our range of organic cleansers have something for everyone. </p>
+<div class="p-20" style="background-image: url(./resources//concrete-wall-with-flowers.jpg);">
+  <div class="flex flex-wrap gap-5 items-center justify-center ">
+   <div class="flex flex-wrap items-center gap-4 justify-center">
+    <img class="rounded-full w-20 h-20  object-contain border-2 border-rose-600" src="./resources//young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" alt="">
     <div class="my-5 text-amber-500 text-center">
+      <p class="text-gray-600">Sandy Wilson</p>
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star-half-stroke"></i>
     </div>
+   </div>
+    <p class="p-10 text-center w-1/2 text-xs">All great routines start with a great cleansing step. Whether you want to discover the right cleanser for your skin type, or delve into the depths of double cleansing - our range of organic cleansers have something for everyone. </p>
+    
   </div>
   <!-- pattern  -->
   <div class=" hidden lg:flex gap-5 justify-center">
@@ -368,16 +376,22 @@ space-y-5 py-10">
   </div>
   
   <!-- 2nd user  -->
-  <div class="flex gap-5 justify-center items-center">
-    <div class="my-5 text-amber-500 text-center">
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star-half-stroke"></i>
-    </div>
-    <p class="p-10 text-center w-1/2">All great routines start with a great cleansing step. Whether you want to discover the right cleanser for your skin type, or delve into the depths of double cleansing - our range of organic cleansers have something for everyone. </p>
-    <img class="rounded-full w-36 border-2 border-rose-600 " src="./resources/close-up-portrait-curly-handsome-european-male.jpg" alt="">
+ 
+   <div class="flex flex-wrap gap-5 items-center justify-center">
+    <p class="p-10 text-center w-1/2 text-xs">All great routines start with a great cleansing step. Whether you want to discover the right cleanser for your skin type, or delve into the depths of double cleansing - our range of organic cleansers have something for everyone. </p>
+    <div class="flex flex-wrap items-center gap-4 justify-center items-center">
+      <img class="rounded-full w-20 h-20   object-contain border-2 border-rose-600" src="./resources/close-up-portrait-curly-handsome-european-male.jpg" alt="">
+      <div class="my-5 text-amber-500 text-center">
+        <p class="text-gray-600">Robert William</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+     </div>
+   </div>
+    
   
   </div>
 </div>
@@ -441,7 +455,7 @@ space-y-5 py-10">
   
   <footer>
     <hr>
-    <footer class="footer p-10 bg-base-200 text-base-content">
+    <footer class="footer flex flex-wrap justify-around gap-4 lg:gap-20 p-10 bg-base-200 text-base-content">
       <nav>
         <header class="footer-title">Services</header> 
         <a class="link link-hover">Branding</a>
@@ -463,13 +477,13 @@ space-y-5 py-10">
         <a class="link link-hover">Cookie policy</a>
       </nav>
     </footer> 
-    <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
-      <aside class="items-center grid-flow-col">
+    <footer class="footer flex flex-wrap justify-between items-center  px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+      <aside class="items-center flex flex-wrap ">
         <img class="w-20" src="./resources//bird_2-removebg-preview.png" alt="">
         <p>VALENTINA Industries Ltd. <br/>Providing reliable tech since 1992</p>
       </aside> 
-      <nav class="md:place-self-center md:justify-self-end ">
-        <div class="grid grid-flow-col gap-4  text-gray-700">
+      <nav class=" ">
+        <div class="flex gap-4 justify-center items-center text-gray-700">
           <i class="fa-brands fa-twitter "></i>
           <i class="fa-brands fa-facebook "></i>
           <i class="fa-brands fa-youtube "></i>
